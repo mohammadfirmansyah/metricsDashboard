@@ -1,6 +1,7 @@
 {
   "name": "metricsdashboard",
   "version": "1.0.0",
+  "description": "A modern, interactive metrics dashboard with bottom tab navigation displaying Line, Bar, Pie, and Progress charts built with React Native and Expo",
   "main": "index.js",
   "scripts": {
     "start": "expo start",
@@ -8,11 +9,52 @@
     "ios": "expo start --ios",
     "web": "expo start --web"
   },
-  "dependencies": {
-    "expo": "~54.0.22",
-    "expo-status-bar": "~3.0.8",
-    "react": "19.1.0",
-    "react-native": "0.81.5"
+  "keywords": [
+    "react-native",
+    "expo",
+    "metrics-dashboard",
+    "charts",
+    "data-visualization",
+    "line-chart",
+    "bar-chart",
+    "pie-chart",
+    "progress-chart",
+    "bottom-tabs",
+    "react-navigation",
+    "mobile-app",
+    "dashboard",
+    "analytics"
+  ],
+  "author": {
+    "name": "Mohammad Firman Syah",
+    "url": "https://github.com/mohammadfirmansyah"
   },
-  "private": true
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mohammadfirmansyah/metricsDashboard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mohammadfirmansyah/metricsDashboard/issues"
+  },
+  "homepage": "https://github.com/mohammadfirmansyah/metricsDashboard#readme",
+  "dependencies": {
+    "@expo/metro-runtime": "~6.1.2",
+    "@react-navigation/bottom-tabs": "^7.8.1",
+    "@react-navigation/native": "^7.1.19",
+    "axios": "^1.13.2",
+    "expo": "~54.0.22",
+    "expo-linear-gradient": "~15.0.7",
+    "expo-status-bar": "~3.0.8",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-native": "0.81.5",
+    "react-native-chart-kit": "^6.12.0",
+    "react-native-gifted-charts": "^1.4.64",
+    "react-native-safe-area-context": "^5.6.2",
+    "react-native-screens": "^4.18.0",
+    "react-native-svg": "^15.14.0",
+    "react-native-web": "^0.21.0"
+  },
+  "private": false
 }
